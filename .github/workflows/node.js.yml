@@ -28,7 +28,7 @@ jobs:
     - name: Install Dependencies
       run: |
         npm install --save-dev @babel/plugin-proposal-private-property-in-object
-        npm ci
+        npm install
 
     - name: Fix ESLint Warnings
       run: |
